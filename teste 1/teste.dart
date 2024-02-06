@@ -11,10 +11,8 @@ void saudacoes(
   bool mostrarCliente = true,
   String nomeCliente = '',
 }) {
-
   print("Olá $nome,");
-  if (mostrarCliente)
-  print("Seja Bem vindo!!");
+  if (mostrarCliente) print("Seja Bem vindo!!");
 
   if (mostrarAgora) {
     print('Dia e Horário atual:  ${agora()}');

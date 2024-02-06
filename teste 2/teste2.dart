@@ -1,11 +1,12 @@
-import 'dart:convert';   ---> nova biblioteca 
+import 'dart:convert';
 
-void main(){
-  Map <String, dynamic> dadoss = json.decode(dados());
-    print(dadoss["nome"]);
+void main() {
+  Map<String, dynamic> dadoss = json.decode(dados());
+  print(dadoss["nome"]);
 }
+
 String dados() {
-   return """
+  return """
     {
   "nome": "Gabriel",
   "Sobremome": "Bomfim Mota da Silva",
@@ -23,6 +24,7 @@ String dados() {
     "Número": 149,
     "Caso não encontrar ligar para": 1324141241
    }
-   } 
+   
   """;
+} 
   //dart junto com json

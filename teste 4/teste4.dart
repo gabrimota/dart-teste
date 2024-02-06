@@ -15,7 +15,7 @@ void funcao(int x) {
 
 class VoceEstaFazendoBesteira implements Exception {
   String toString() {
-    // personalizamos a classe aqui(fazendo aparecer esse aviso de baixo)
+    //personalizamos a classe aqui(fazendo aparecer esse aviso de baixo)
     return "Você não pode passar um valor menor igual a 0";
   }
 }
